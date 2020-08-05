@@ -19,10 +19,13 @@ ActiveRecord::Schema.define(version: 20200723194937) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "artists_tables", force: :cascade do |t|
     t.string "name"
     t.text   "bio"
   end
+=======
+>>>>>>> bcb04dd69cdbc797bc29357327368c1fc8ea8a1e
 
   create_table "genres", force: :cascade do |t|
     t.string   "name"
@@ -30,9 +33,12 @@ ActiveRecord::Schema.define(version: 20200723194937) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "genres_tables", force: :cascade do |t|
     t.string "name"
   end
+=======
+>>>>>>> bcb04dd69cdbc797bc29357327368c1fc8ea8a1e
 
   create_table "songs", force: :cascade do |t|
     t.string   "name"
@@ -42,10 +48,13 @@ ActiveRecord::Schema.define(version: 20200723194937) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "songs_tables", force: :cascade do |t|
     t.string  "name"
     t.integer "artist_id"
     t.integer "genre_id"
   end
+=======
+>>>>>>> bcb04dd69cdbc797bc29357327368c1fc8ea8a1e
 
 end

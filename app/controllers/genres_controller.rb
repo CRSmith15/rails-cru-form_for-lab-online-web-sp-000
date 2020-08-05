@@ -1,4 +1,5 @@
 class GenresController < ApplicationController
+<<<<<<< HEAD
 
   def show
     @genre = Genre.find(params[:id])
@@ -29,4 +30,6 @@ class GenresController < ApplicationController
   def genre_params(*args)
     params.require(:genre).permit(*args)
   end
+=======
+>>>>>>> bcb04dd69cdbc797bc29357327368c1fc8ea8a1e
 end

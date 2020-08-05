@@ -1,4 +1,5 @@
 class ArtistsController < ApplicationController
+<<<<<<< HEAD
 
   def index
     @artists = Artist.all
@@ -34,4 +35,6 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(*args)
   end
 
+=======
+>>>>>>> bcb04dd69cdbc797bc29357327368c1fc8ea8a1e
 end
